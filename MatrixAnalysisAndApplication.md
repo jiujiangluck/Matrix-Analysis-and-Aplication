@@ -78,7 +78,7 @@ $$tr(A^TB)=\sum_{i,j}A_{ij}B_{ij}$$
 $$tr(A^T(B \odot C))=tr((A \odot B)^TC)$$
 
 - 范数
-$$\left\| A \right\|_F = \sqrt{\sum_{i,j} a_{ij}^2}=tr(AA^T)$$
+$$\left\| A \right\|_F = \sqrt{\sum_{i,j} a_{ij}^2}=\sqrt{tr(AA^T)}$$
 $$\left\| A \right\|_2 = \sqrt{\lambda_{\max}(A^TA)}=\delta_{\max}(A)$$
 $$\left\| A \right\|_1 = \max_{j} \sum _{i=1}^n|a_{ij}|$$
 $$\left\| A \right\|_\infty = \max_{i} \sum _{j=1}^n|a_{ij}|$$
